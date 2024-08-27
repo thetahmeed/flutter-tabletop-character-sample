@@ -603,7 +603,8 @@ const example2 = '''
 Content createPrompt(
     String description, String personality, String role, String background) {
   return Content.multi([
-    TextPart('Write a side character design in a role-playing game set in a '
+    TextPart(
+        'Write a side character design in Bengali a role-playing game set in a '
         'fantasy realm. Examples:'),
     TextPart(example1),
     TextPart(example2),
